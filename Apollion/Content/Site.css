@@ -1,12 +1,47 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5 {
+    color: whitesmoke;
+}
+
+p {
+    color:whitesmoke
+}
+
+div {
+    background-color: black;
+    color: whitesmoke;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.col, .col-lg-3, .col-lg-4, .col-lg-12 {
+    background-color: black;
+}
+
+.row {
+    background-color: black;
+}
+
+.container {
+    background-color: inherit;
+}
+
+.navbar, .navbar-inverse, .navbar-fixed-top, .navbar-header, .navbar-toggle, .navbar-brand, .navbar-collapse, .collapse, .nav, .navbar-nav, .navbar-right {
+    background-color: darkslategrey;
+    color: whitesmoke !important;
+}
+
+.nav .navbar-nav .navbar-right {
+    color: white;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 

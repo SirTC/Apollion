@@ -1,7 +1,39 @@
-﻿
+﻿@model Apollion.Models.StatsViewModel
 @{
     ViewBag.Title = "PVE";
 }
 
-<h2>PVE</h2>
+<h1 style="text-align: center">Pve</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 well">
+            <h3 style="text-align: center">Leviathan</h3>
+            @foreach (var s in Model.Value)
+            {
+                <div class="col-lg-12 well" style="margin: 5px">
+                    @s
+                </div>
+            }
+        </div>
+        <div class="col-lg-4 well">
+            <h3 style="text-align: center">Nightfall</h3>
+            @foreach (var s in Model.Value)
+            {
+                <div class="col-lg-12 well" style="margin: 5px">
+                    @s
+                </div>
+            }
+        </div>
+        <div class="col-lg-4 well">
+            <h3 style="text-align: center">Other</h3>
+            @foreach (var s in Model.Value)
+            {
+                <div class="col-lg-12 well" style="margin: 5px">
+                    @s
+                </div>
+            }
+        </div>
+    </div>
+</div>
 

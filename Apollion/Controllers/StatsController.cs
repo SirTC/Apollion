@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Apollion.Models;
 
 namespace Apollion.Controllers
 {
@@ -16,12 +17,26 @@ namespace Apollion.Controllers
 
         public ActionResult PVE()
         {
-            return View();
+            var model = new StatsViewModel();
+
+            for (var i = 0; i < 6; i++)
+            {
+                model.Value.Add(i);
+            }
+
+            return View(model);
         }
 
         public ActionResult PVP()
         {
-            return View();
+            var model = new StatsViewModel();
+
+            for (var i = 0; i < 6; i++)
+            {
+                model.Value.Add(i);
+            }
+
+            return View(model);
         }
     }
 }
