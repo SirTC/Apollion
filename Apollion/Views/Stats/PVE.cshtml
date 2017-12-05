@@ -3,33 +3,33 @@
     ViewBag.Title = "PVE";
 }
 
-<h1 style="text-align: center">Pve</h1>
+<h1 class="h-apollion">Pve</h1>
 
-<div class="container">
+<div class="container stats">
     <div class="row">
-        <div class="col-lg-4 well">
-            <h3 style="text-align: center">Leviathan</h3>
+        <div class="col col-lg-4 well stats">
+            <h3 class="h-apollion">Leviathan</h3>
             @foreach (var s in Model.Value)
             {
-                <div class="col-lg-12 well" style="margin: 5px">
+                <div class="col col-lg-12 well stats">
                     @s
                 </div>
             }
         </div>
-        <div class="col-lg-4 well">
-            <h3 style="text-align: center">Nightfall</h3>
+        <div class="col col-lg-4 well stats">
+            <h3 class="h-apollion">Nightfall</h3>
             @foreach (var s in Model.Value)
             {
-                <div class="col-lg-12 well" style="margin: 5px">
+                <div class="col col-lg-12 well stats">
                     @s
                 </div>
             }
         </div>
-        <div class="col-lg-4 well">
-            <h3 style="text-align: center">Other</h3>
+        <div class="col col-lg-4 well stats">
+            <h3 class="h-apollion">Other</h3>
             @foreach (var s in Model.Value)
             {
-                <div class="col-lg-12 well" style="margin: 5px">
+                <div class="col col-lg-12 well stats">
                     @s
                 </div>
             }

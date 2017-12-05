@@ -3,33 +3,33 @@
     ViewBag.Title = "PVP";
 }
 
-<h1 style="text-align: center">Pvp</h1>
+<h1 class="h-apollion">Pvp</h1>
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-4 well">
-            <h3 style="text-align: center">Quickplay</h3>
+<div class="container stats">
+    <div class="row stats">
+        <div class="col col-lg-4 well stats">
+            <h3 class="h-apollion">Quickplay</h3>
             @foreach (var s in Model.Value)
             {
-                <div class="col-lg-12 well" style="margin: 5px">
+                <div class="col col-lg-12 well stats">
                     @s
                 </div>
             }
         </div>
-        <div class="col-lg-4 well">
-            <h3 style="text-align: center">Competetive</h3>
+        <div class="col col-lg-4 well stats">
+            <h3 class="h-apollion">Competetive</h3>
             @foreach (var s in Model.Value)
             {
-                <div class="col-lg-12 well" style="margin: 5px">
+                <div class="col col-lg-12 well stats">
                     @s
                 </div>
             }
         </div>
-        <div class="col-lg-4 well">
-            <h3 style="text-align: center">Other</h3>
+        <div class="col col-lg-4 well stats">
+            <h3 class="h-apollion">Other</h3>
             @foreach (var s in Model.Value)
             {
-                <div class="col-lg-12 well" style="margin: 5px">
+                <div class="col col-lg-12 well stats">
                     @s
                 </div>
             }

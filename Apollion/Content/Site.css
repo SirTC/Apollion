@@ -4,45 +4,47 @@
     background-color: black;
 }
 
-h1, h2, h3, h4, h5 {
-    color: whitesmoke;
-}
+/* Set padding to keep content from hitting the edges */
 
+/*** BEGIN CUSTOM STYLES ***/
 p {
     color:whitesmoke
 }
-
-div {
-    background-color: black;
-    color: whitesmoke;
-}
-
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.col, .col-lg-3, .col-lg-4, .col-lg-12 {
-    background-color: black;
-}
-
-.row {
-    background-color: black;
-}
-
+    
 .container {
-    background-color: inherit;
+    max-width: none;
 }
 
-.navbar, .navbar-inverse, .navbar-fixed-top, .navbar-header, .navbar-toggle, .navbar-brand, .navbar-collapse, .collapse, .nav, .navbar-nav, .navbar-right {
+.col .stats {
+    background-color: black;
+}
+
+.dropdown-link {
+    color: #999999 !important;
+}
+
+.dropdown-link:hover {
+    color: whitesmoke !important;    
+}
+
+.h-apollion {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.navbar-apollion {
     background-color: darkslategrey;
     color: whitesmoke !important;
 }
 
-.nav .navbar-nav .navbar-right {
-    color: white;
+.row .stats {
+    background-color: black;
 }
+
+.stats {
+    color: whitesmoke;
+}
+/*** END CUSTOM STYLES ***/
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
